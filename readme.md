@@ -8,3 +8,5 @@ docker run --rm --it --hostname my-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3
 
 Testing
 (integration testing blogpost)[https://www.linkedin.com/pulse/integration-testing-python-rabbitmq-frederik-banke/]
+
+(pytest rabbit plugin)[https://pypi.org/project/pytest-rabbitmq/]
