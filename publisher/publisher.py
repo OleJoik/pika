@@ -26,4 +26,10 @@ channel.basic_publish(
 )
 print(" [x] Sent report message")
 
+channel.basic_publish(
+    exchange="",
+    routing_key="test_queue",
+    body=json.dumps({"Hello": "Async world"})
+)
+
 connection.close()
